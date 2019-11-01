@@ -1,0 +1,11 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: tks-compliance-controller
+subjects:
+- kind: ServiceAccount
+  name: tks-compliance-controller
+roleRef:
+  kind: Role
+  name: tks-compliance-controller
+  apiGroup: rbac.authorization.k8s.io

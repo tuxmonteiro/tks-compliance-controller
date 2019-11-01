@@ -1,0 +1,7 @@
+apiVersion: tks.globo.com/v1alpha1
+kind: TksComplianceMonitor
+metadata:
+  name: example-tkscompliancemonitor
+spec:
+  # Add fields here
+  size: 3
